@@ -1,5 +1,5 @@
 ## Goal of SQL Database Project - Music Trend Analysis
-1. SDLC in database management -The process of database development goes through phases from conceptual design to implementation and maintenance of the database.
+1. SDLC in database management - The process of database development goes through phases from conceptual design to implementation and maintenance of the database.
 2. Queries based on the business requirement
 
 ## Business Requirement
