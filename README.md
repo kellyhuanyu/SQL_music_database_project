@@ -315,7 +315,7 @@ SELECT
 	u.gender,
 	CASE
 		WHEN YEAR(GETDATE()) - YEAR(u.birth_date) BETWEEN 18 AND 24 THEN '18-24'
-        WHEN YEAR(GETDATE()) - YEAR(u.birth_date) BETWEEN 25 AND 34 THEN '25-34'
+        	WHEN YEAR(GETDATE()) - YEAR(u.birth_date) BETWEEN 25 AND 34 THEN '25-34'
 		WHEN YEAR(GETDATE()) - YEAR(u.birth_date) BETWEEN 35 AND 44 THEN '35-44'
         ELSE '45+'
     END AS age_group,
